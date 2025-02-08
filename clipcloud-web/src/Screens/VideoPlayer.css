@@ -1,0 +1,15 @@
+.video-player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .video-frame {
+    width: 80%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+  }
+  

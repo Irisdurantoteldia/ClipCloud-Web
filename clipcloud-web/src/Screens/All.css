@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #1f1f1f;
+    color: white;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f1f1f;
+    min-height: 100vh;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.videoCard {
+    background-color: #241178;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.videoContent {
+    cursor: pointer;
+}
+
+.title,
+.singers {
+    color: white;
+    font-size: 14px;
+}
+
+.deleteButton {
+    background-color: #f44336;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.deleteButton:hover {
+    background-color: #d32f2f;
+}
+
+.bottomBar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    border-top: 1px solid #673dff;
+    padding: 10px 0;
+    text-align: center;
+}

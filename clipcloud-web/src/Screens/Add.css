@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #1f1f1f;
+  color: white;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.add-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d1d1d;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.add-card {
+  background-color: #241178;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 320px;
+  /* Reduït */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 85%;
+  /* Reduït */
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #673dff;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.list-container {
+  width: 85%;
+  /* Reduït */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.picker {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #241178;
+  color: #fff;
+  border: 1px solid #673dff;
+}
+
+.button {
+  width: 85%;
+  /* Reduït */
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  margin-top: 8px;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.cancel {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.cancel:hover {
+  background-color: #d32f2f;
+}
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  border-top: 1px solid #673dff;
+  padding: 10px 0;
+  text-align: center;
+}

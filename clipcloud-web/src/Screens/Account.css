@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #1f1f1f;
+    color: white;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f;
+    min-height: 20vh;
+}
+
+.profile-card {
+    background-color: #241178;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 85%;
+    /* Reduït */
+    max-width: 320px;
+    /* Reduït */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image {
+    width: 90px;
+    /* Lleugerament reduït */
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid #673dff;
+    margin-bottom: 12px;
+}
+
+.input-field {
+    width: 85%;
+    /* Ajustat */
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #673dff;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.separator {
+    width: 85%;
+    /* Ajustat */
+    height: 1px;
+    background-color: #673dff;
+    margin: 12px 0;
+}
+
+.social-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    /* Lleugerament reduït */
+}
+
+.social-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.social-icon {
+    width: 28px;
+    /* Lleugerament reduït */
+    height: 28px;
+}
+
+.logout-prompt {
+    color: #fff;
+    font-size: 15px;
+    /* Lleugerament reduït */
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.logout-button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 85%;
+    /* Ajustat */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f;
+}
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    border-top: 1px solid #673dff;
+    padding: 10px 0;
+    text-align: center;
+}
